@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # Set the working directory
-WORKDIR /LLM_application_chatbot
+#WORKDIR /Chatbot webapp flask
 
 # This copies the requirements.txt file from the local directory to the current directory (.) in the container
 COPY requirements.txt .
